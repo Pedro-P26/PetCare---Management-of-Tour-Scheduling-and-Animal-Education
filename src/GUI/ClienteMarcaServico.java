@@ -44,8 +44,8 @@ public class ClienteMarcaServico extends JFrame{
         model.addColumn("Morada");
         model.addColumn("Localidade");
         model.addColumn("Telefone");
-        //model.addColumn("Tipo Consulta");
-        //model.addColumn("Preço consulta");
+        model.addColumn("Tipo Consulta");
+        model.addColumn("Preço consulta");
 
         Date data = new Date();
 

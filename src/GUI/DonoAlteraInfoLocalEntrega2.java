@@ -35,19 +35,10 @@ public class DonoAlteraInfoLocalEntrega2 extends JFrame {
 
         alterardados(frame,entrega);
         //backreturn(frame,entrega);
-        returnback(frame);
     }
 
 
-    public void returnback(JFrame frame){
-        returnButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                donoalterainfolocalentrega2.setVisible(false);
-                new DonoGereEmpresa(frame);
-            }
-        });
-    }
+
     public void alterardados(JFrame frame, LocalEntrega entrega){
         alterarButton.addActionListener(new ActionListener() {
             @Override
